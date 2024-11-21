@@ -1,0 +1,14 @@
+{
+  "name": "process-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Yoni Widhi",
+  "license": "UNLICENSED",
+  "private": false,
+  "scripts": {
+    "1": "node ./1-synchronize/index.js",
+    "2": "node ./2-worker/index.js",
+    "3": "node ./3-shared-transfer/index.js",
+    "4": "node ./4-cpu-intensive/index.js"
+  }
+}
